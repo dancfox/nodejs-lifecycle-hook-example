@@ -7,7 +7,7 @@ function sleep(ms) {
 }
 
 /**
- * dfox: 04 - this is the portion of the lifecycle hook that is
+ * This is the portion of the lifecycle hook that is
  * implemented by customers. In this case we are creating
  * a blocking call to a sleep method for 5 seconds.
  * 
