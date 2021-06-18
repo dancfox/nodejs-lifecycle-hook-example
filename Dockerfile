@@ -20,7 +20,7 @@ RUN mkdir -p ${FUNCTION_DIR}
 
 WORKDIR ${FUNCTION_DIR}
 
-COPY app.js aws-lambda-ric-1.0.0.tgz ${FUNCTION_DIR}
+COPY app.js aws-lambda-ric-1.0.0.tgz ${FUNCTION_DIR}/
 RUN npm install ./aws-lambda-ric-1.0.0.tgz
 
 # Grab a fresh slim copy of the image to reduce the final size
